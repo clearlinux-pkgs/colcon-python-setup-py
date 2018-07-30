@@ -4,7 +4,7 @@
 #
 Name     : colcon-python-setup-py
 Version  : 0.2.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/d3/b7/9fa65226090ca010b9cbbae1683836652304ff3c11e8e879d1ce24a39fa3/colcon-python-setup-py-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d3/b7/9fa65226090ca010b9cbbae1683836652304ff3c11e8e879d1ce24a39fa3/colcon-python-setup-py-0.2.0.tar.gz
 Summary  : Extension for colcon to support Python packages with the metadata in the setup.py file.
@@ -44,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980252
+export SOURCE_DATE_EPOCH=1532981050
 python3 setup.py build -b py3
 
 %install
