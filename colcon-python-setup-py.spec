@@ -4,7 +4,7 @@
 #
 Name     : colcon-python-setup-py
 Version  : 0.2.1
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/65/97/f0dac66d6afa400e339229398ffd250b7be320261fa32a13db3e41764567/colcon-python-setup-py-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/65/97/f0dac66d6afa400e339229398ffd250b7be320261fa32a13db3e41764567/colcon-python-setup-py-0.2.1.tar.gz
 Summary  : Extension for colcon to support Python packages with the metadata in the setup.py file.
