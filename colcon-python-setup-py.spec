@@ -4,7 +4,7 @@
 #
 Name     : colcon-python-setup-py
 Version  : 0.2.3
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/58/70/4d7557fb63e4a22f0351bc333c0af42d61f41b87dce619c1f6bfbf1dbe6a/colcon-python-setup-py-0.2.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/58/70/4d7557fb63e4a22f0351bc333c0af42d61f41b87dce619c1f6bfbf1dbe6a/colcon-python-setup-py-0.2.3.tar.gz
 Summary  : Extension for colcon to support Python packages with the metadata in the setup.py file.
@@ -21,6 +21,7 @@ BuildRequires : setuptools
 %description
 colcon-python-setup-py
 ======================
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to identify packages with a ``setup.py`` file by introspecting the arguments to the ``setup()`` function call of  `setuptools <https://setuptools.readthedocs.io/en/latest/>`_.
 
 %package python
@@ -36,6 +37,7 @@ python components for the colcon-python-setup-py package.
 Summary: python3 components for the colcon-python-setup-py package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-python-setup-py)
 
 %description python3
 python3 components for the colcon-python-setup-py package.
@@ -50,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578599544
+export SOURCE_DATE_EPOCH=1582910770
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
