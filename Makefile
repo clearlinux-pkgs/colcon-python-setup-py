@@ -1,5 +1,5 @@
 PKG_NAME := colcon-python-setup-py
-URL = https://files.pythonhosted.org/packages/58/70/4d7557fb63e4a22f0351bc333c0af42d61f41b87dce619c1f6bfbf1dbe6a/colcon-python-setup-py-0.2.3.tar.gz
+URL = https://files.pythonhosted.org/packages/fe/9f/e9c0adf40e0e050c62252736ccf360b64ade5358bbd2ea7e09aa1d269f4d/colcon-python-setup-py-0.2.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
